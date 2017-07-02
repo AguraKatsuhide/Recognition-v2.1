@@ -1,0 +1,30 @@
+﻿빌드 시작: 2015-10-14 오전 10:56:10
+     1>2 노드의 "C:\Users\katsu\Desktop\Recognition -v2.0\Recognition -v2.0\Recognition\Recognition\Recognition.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W1 /WX- /sdl- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "1$Recognizer.cpp" KeyPrint.cpp LineSegment.cpp PatternMatch.cpp Main.cpp
+     1>cl : 명령줄 warning D9038: 이 플랫폼에서는 /ZI가 지원되지 않습니다. 대신 /Zi를 사용합니다.
+     1>cl : 명령줄 warning D9007: '/Gm'에는 '/Zi'이(가) 있어야 합니다. 옵션이 무시됩니다.
+         1$Recognizer.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         KeyPrint.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         LineSegment.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PatternMatch.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Main.cpp
+     1>c:\users\katsu\desktop\opencv\build\include\opencv2\flann\dist.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\katsu\Desktop\Recognition -v2.0\Recognition -v2.0\Recognition\x64\Debug\Recognition.exe" /INCREMENTAL /NOLOGO kinect20.lib opencv_core245.lib opencv_highgui245.lib opencv_imgproc245.lib Winmm.lib Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\katsu\Desktop\Recognition -v2.0\Recognition -v2.0\Recognition\x64\Debug\Recognition.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\katsu\Desktop\Recognition -v2.0\Recognition -v2.0\Recognition\x64\Debug\Recognition.lib" /MACHINE:X64 "x64\Debug\1$Recognizer.obj"
+         x64\Debug\KeyPrint.obj
+         x64\Debug\LineSegment.obj
+         x64\Debug\PatternMatch.obj
+         x64\Debug\Main.obj
+     1>LINK : warning LNK4039: /SECTION 옵션으로 지정된 '.SHAREDATA' 섹션이 없습니다.
+         Recognition.vcxproj -> C:\Users\katsu\Desktop\Recognition -v2.0\Recognition -v2.0\Recognition\x64\Debug\Recognition.exe
+     1>"C:\Users\katsu\Desktop\Recognition -v2.0\Recognition -v2.0\Recognition\Recognition\Recognition.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.12
